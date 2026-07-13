@@ -1,17 +1,28 @@
-# firebase_integration_project
+# Firebase Authentication & Firestore App
 
-A new Flutter project.
+A Flutter application that demonstrates **Firebase Authentication** and **Cloud Firestore** integration. Users can register, log in, store their information in Firestore, and view their profile.
 
-## Getting Started
+##  Features
 
-This project is a starting point for a Flutter application.
+- Splash Screen
+- User Registration
+- User Login
+- Firebase Email & Password Authentication
+- Store user data in Cloud Firestore
+- Display user profile
+- Logout functionality
 
-A few resources to get you started if this is your first Flutter project:
+##  Dependencies
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- firebase_core
+- firebase_auth
+- cloud_firestore
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+This project demonstrates how to:
+
+- Integrate Firebase with Flutter
+- Implement Email/Password Authentication
+- Store and retrieve data from Cloud Firestore
+- Manage user sessions
+- Build a complete authentication workflow
